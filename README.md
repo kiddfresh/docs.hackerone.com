@@ -9,7 +9,7 @@ This repo contains the source code and documentation powering [docs.hackerone.co
 ### Prerequisites
 
 1. Git
-1. Node: install version 12 or greater
+1. Node: install version 16 or greater
 1. Yarn: See [Yarn website for installation instructions](https://yarnpkg.com/lang/en/docs/install/)
 1. A fork of the repo (for any contributions)
 1. A clone of the [docs.hackerone.com repo](https://github.com/Hacker0x01/docs.hackerone.com) on your local machine
@@ -23,6 +23,18 @@ This repo contains the source code and documentation powering [docs.hackerone.co
 
 1. `yarn develop` to start the hot-reloading development server (powered by [Gatsby](https://www.gatsbyjs.org))
 1. `open http://localhost:8000` to open the site in your favorite browser
+
+> On some machines you'll receive an error like:
+
+```
+Generating development SSR bundle failed
+
+error:0308010C:digital envelope routines::unsupported
+```
+> Run the following command to use the legacy OpenSSL provider instead:
+```
+export NODE_OPTIONS=--openssl-legacy-provider
+```
 
 ### Deploy
 

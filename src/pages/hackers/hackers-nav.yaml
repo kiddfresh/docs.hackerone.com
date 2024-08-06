@@ -22,8 +22,8 @@
           path: /hackers/signal-and-impact.html
     - title: Hacker Dashboard
       path: /hackers/hacker-dashboard.html
-    - title: "Opportunity Discovery"
-      path: "/hackers/opportunity-discovery.html"
+    - title: Opportunity Discovery
+      path: /hackers/opportunity-discovery.html
     - title: Badges
       path: /hackers/badges.html
     - title: Thanks
@@ -37,8 +37,12 @@
           path: /hackers/tax-forms.html
         - title: External Payments
           path: /hackers/external-payments.html
+        - title: Verification Letters
+          path: /hackers/verification-letters.html
         - title: Payments FAQs
           path: /hackers/payments-faqs.html
+    - title: ID Verification
+      path: /hackers/id-verification.html
     - title: External Services
       path: /hackers/external-services.html
       items:
@@ -87,6 +91,8 @@
       path: /hackers/collaboration.html
     - title: Credentials
       path: /hackers/credentials.html
+    - title: CVE & CWE Discovery
+      path: /hackers/cve-cwe-discovery.html
     - title: Security Checks
       path: /hackers/security-checks.html
     - title: Publishing External Vulnerabilities
@@ -104,6 +110,15 @@
           path: /hackers/hackerone-vpn-root-ca.html
         - title: Configuring OpenVPN Clients
           path: /hackers/openvpn-clients.html
+    - title: Gateway V2
+      path: /hackers/configure-the-hackerone-vpn-v2.html
+      items:
+        - title: Installing the VPN Root CA
+          path: /hackers/cloudflare-vpn-root-ca.html
+        - title: Installing the WARP Client
+          path: /hackers/warp-client-install.html
+        - title: Connecting to a program
+          path: /hackers/warp-client-config.html
 - title: Programs
   items:
     - title: Invitations
@@ -147,5 +162,5 @@
   items:
     - title: Pentest Overview
       path: /hackers/pentest-overview.html
-    - title: "Retesting Pentest"
-      path: "/hackers/retesting-pentest.html"
+    - title: Retesting Pentest
+      path: /hackers/retesting-pentest.html
